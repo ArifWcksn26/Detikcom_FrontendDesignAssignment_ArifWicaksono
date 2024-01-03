@@ -1,0 +1,2462 @@
+.body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 5487px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    overflow: hidden;
+    display: block;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 120px;
+    position: fixed;
+    width: 1194px;
+    margin: 46px 0 0 123px;
+    padding: 25px 35px 25px 35px;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 210;
+    border-radius: 100px;
+    backdrop-filter: blur(25px);
+  }
+  .navbar-brand {
+    flex-shrink: 0;
+    position: relative;
+    width: 200px;
+    height: 42.274px;
+    background: url(/img/navbar-brand.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 211;
+  }
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    gap: 51px;
+    position: relative;
+    min-width: 0;
+    z-index: 212;
+  }
+  .single-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 91px;
+    padding: 10px 20px 10px 20px;
+    z-index: 213;
+  }
+  .single-menu-home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 51px;
+    height: 20px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #212427;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.504px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 214;
+  }
+  
+  .single-menu-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 160px;
+    padding: 10px 20px 10px 20px;
+    z-index: 215;
+  }
+  .single-menu-tentang-acara {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 120px;
+    height: 20px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #212427;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.504px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 216;
+  }
+  .single-menu-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 88px;
+    padding: 10px 20px 10px 20px;
+    z-index: 217;
+  }
+  .single-menu-galeri {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 48px;
+    height: 20px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #212427;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.504px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 218;
+  }
+  .single-menu-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 90px;
+    padding: 10px 20px 10px 20px;
+    z-index: 219;
+  }
+  .single-menu-berita {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 50px;
+    height: 20px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #212427;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.504px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 220;
+  }
+  .navbar-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 122px;
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(225deg, #58ffb9, #326bff);
+    z-index: 221;
+    border-radius: 100px;
+  }
+  .registrasi {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 82px;
+    height: 20px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.504px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 222;
+  }
+  .logo-event {
+    position: relative;
+    width: 686px;
+    height: 276px;
+    margin: 276.726px 0 0 123px;
+    background: url(/img/logo_event_2_ek2.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 207;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 195px;
+    margin: 57px 0 0 123px;
+    padding: 15px 25px 15px 25px;
+    background: #ffc73c;
+    z-index: 208;
+    overflow: hidden;
+    border-radius: 100px;
+    box-shadow: 0 18px 40px 0 rgba(255, 211, 102, 0.35);
+  }
+  .daftar-sekarang-tentang-acara {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 145px;
+    height: 20px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.504px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 209;
+    text-shadow: 0 18px 40px rgba(255, 211, 102, 0.35);
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 50px;
+    position: relative;
+    width: 1194px;
+    margin: 402px 0 0 123px;
+    z-index: 176;
+  }
+  .about-4 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 30px;
+    position: relative;
+    width: 1194px;
+    z-index: 177;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 30px;
+    position: relative;
+    width: 582px;
+    padding: 32px 32px 32px 32px;
+    background: linear-gradient(205.22deg, #58ffb9, #326bff);
+    z-index: 178;
+    border-radius: 32px;
+  }
+  .image {
+    flex-shrink: 0;
+    position: relative;
+    width: 518px;
+    height: 388px;
+    background: url(/img/map\ 1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 179;
+  }
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 30px;
+    position: relative;
+    width: 518px;
+    z-index: 181;
+  }
+  .frame-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 518px;
+    z-index: 182;
+  }
+  .k-fun-run {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 338px;
+    height: 59px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58.512px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 183;
+  }
+  .dimulai-pukul-6-pagi {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 518px;
+    height: 60px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.504px;
+    text-align: left;
+    z-index: 184;
+  }
+  .frame-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 27px;
+    position: relative;
+    width: 582px;
+    z-index: 185;
+  }
+  .card-no-thumbnail {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 30px;
+    position: relative;
+    width: 582px;
+    padding: 32px 32px 32px 32px;
+    background: linear-gradient(205.22deg, #58ffb9, #326bff);
+    z-index: 186;
+    border-radius: 32px;
+  }
+  .frame-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 518px;
+    z-index: 187;
+  }
+  .gratis-dan-berhadiah {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 489px;
+    height: 44px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43.884px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 188;
+  }
+  .pendaftaran-gratis {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 518px;
+    height: 40px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.504px;
+    text-align: left;
+    z-index: 189;
+  }
+  .card-no-thumbnail-8 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 30px;
+    position: relative;
+    width: 582px;
+    padding: 32px 32px 32px 32px;
+    background: linear-gradient(205.22deg, #58ffb9, #326bff);
+    z-index: 190;
+    border-radius: 32px;
+  }
+  .frame-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 518px;
+    z-index: 191;
+  }
+  .gratis-dan-berhadiah-a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 412px;
+    height: 44px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43.884px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 192;
+  }
+  .text-c {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 518px;
+    height: 40px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.504px;
+    text-align: left;
+    z-index: 193;
+  }
+  .card-side-image {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 30px;
+    position: relative;
+    width: 582px;
+    padding: 32px 32px 32px 32px;
+    background: linear-gradient(205.22deg, #58ffb9, #326bff);
+    z-index: 194;
+    border-radius: 32px;
+  }
+  .image-b {
+    flex-shrink: 0;
+    position: relative;
+    width: 178px;
+    height: 178px;
+    background: url(/img/map_1_ek1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 195;
+  }
+  .frame-c {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    gap: 30px;
+    position: relative;
+    min-width: 0;
+    z-index: 197;
+  }
+  .frame-d {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    z-index: 198;
+  }
+  .special-performance {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 310px;
+    height: 88px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43.884px;
+    text-align: left;
+    z-index: 199;
+  }
+  .saksikan-penampilan {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 310px;
+    height: 60px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.504px;
+    text-align: left;
+    z-index: 200;
+  }
+  .button-e {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 218px;
+    padding: 15px 25px 15px 25px;
+    background: #ffc73c;
+    z-index: 201;
+    overflow: hidden;
+    border-radius: 100px;
+    box-shadow: 0 18px 40px 0 rgba(255, 211, 102, 0.35);
+  }
+  .daftar-sekarang {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 168px;
+    height: 20px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.504px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 202;
+    text-shadow: 0 18px 40px rgba(255, 211, 102, 0.35);
+  }
+  .sponsors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+    position: relative;
+    width: 1440px;
+    margin: 137px 0 0 0;
+    padding: 60px 0 60px 0;
+    background: linear-gradient(203.31deg, #58ffb9, #326bff);
+    z-index: 107;
+  }
+  .didukung-oleh {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 329px;
+    height: 44px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43.884px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 108;
+  }
+  .frame-f {
+    flex-shrink: 0;
+    position: relative;
+    width: 2488px;
+    height: 144px;
+    z-index: 109;
+    overflow: hidden;
+  }
+  .group {
+    position: absolute;
+    width: 4956px;
+    height: 144px;
+    top: 0;
+    left: 0;
+    z-index: 110;
+  }
+  .frame-10 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 0;
+    z-index: 111;
+  }
+  .rectangle {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    z-index: 112;
+    border-radius: 10px;
+  }
+  .frame-11 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    z-index: 113;
+  }
+  .alpha-jwc {
+    flex-shrink: 0;
+    position: relative;
+    width: 216px;
+    height: 48px;
+    background: url(/img/alpha_jwc_1_ek1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 114;
+  }
+  .frame-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 2488px;
+    z-index: 115;
+  }
+  .rectangle-13 {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 116;
+    border-radius: 10px;
+  }
+  .frame-14 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    z-index: 117;
+  }
+  .alpha-jwc-15 {
+    flex-shrink: 0;
+    position: relative;
+    width: 216px;
+    height: 48px;
+    background: url(/img/alpha_jwc_1_ek15.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 118;
+  }
+  .frame-16 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 311px;
+    z-index: 119;
+  }
+  .rectangle-17 {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 120;
+    border-radius: 10px;
+  }
+  .frame-18 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek14.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 121;
+  }
+  .frame-19 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 2799px;
+    z-index: 123;
+  }
+  .rectangle-1a {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 124;
+    border-radius: 10px;
+  }
+  .frame-1b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek10.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 125;
+  }
+  .frame-1c {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 622px;
+    z-index: 127;
+  }
+  .rectangle-1d {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 128;
+    border-radius: 10px;
+  }
+  .frame-1e {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek12.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 129;
+  }
+  .frame-1f {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 3110px;
+    z-index: 131;
+  }
+  .rectangle-20 {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 132;
+    border-radius: 10px;
+  }
+  .frame-21 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek13.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 133;
+  }
+  .frame-22 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 933px;
+    z-index: 135;
+  }
+  .rectangle-23 {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 136;
+    border-radius: 10px;
+  }
+  .frame-24 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek14.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 137;
+  }
+  .frame-25 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 3421px;
+    z-index: 139;
+  }
+  .rectangle-26 {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 140;
+    border-radius: 10px;
+  }
+  .frame-27 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek15.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 141;
+  }
+  .frame-28 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 1244px;
+    z-index: 143;
+  }
+  .rectangle-29 {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 144;
+    border-radius: 10px;
+  }
+  .frame-2a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek6.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 145;
+  }
+  .frame-2b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 3732px;
+    z-index: 147;
+  }
+  .rectangle-2c {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 148;
+    border-radius: 10px;
+  }
+  .frame-2d {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek7.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 149;
+  }
+  .frame-2e {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 1555px;
+    z-index: 151;
+  }
+  .rectangle-2f {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 152;
+    border-radius: 10px;
+  }
+  .frame-30 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek9.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 153;
+  }
+  .frame-31 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 4043px;
+    z-index: 155;
+  }
+  .rectangle-32 {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 156;
+    border-radius: 10px;
+  }
+  .frame-33 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek3.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 157;
+  }
+  .frame-34 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 1866px;
+    z-index: 159;
+  }
+  .rectangle-35 {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 160;
+    border-radius: 10px;
+  }
+  .frame-36 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek7.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 161;
+  }
+  .frame-37 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 4354px;
+    z-index: 163;
+  }
+  .rectangle-38 {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 164;
+    border-radius: 10px;
+  }
+  .frame-39 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek8.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 165;
+  }
+  .frame-3a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 2177px;
+    z-index: 167;
+  }
+  .rectangle-3b {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 168;
+    border-radius: 10px;
+  }
+  .frame-3c {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek12.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 169;
+  }
+  .frame-3d {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 291px;
+    height: 144px;
+    top: 0;
+    left: 4665px;
+    z-index: 171;
+  }
+  .rectangle-3e {
+    flex-shrink: 0;
+    position: relative;
+    width: 291px;
+    height: 144px;
+    background: #ffffff;
+    z-index: 172;
+    border-radius: 10px;
+  }
+  .frame-3f {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 94px;
+    top: 25px;
+    left: 37px;
+    background: url(/img/alpha_jwc_1_ek3.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 173;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+    position: relative;
+    width: 1058px;
+    margin: 193px 0 0 191px;
+    z-index: 91;
+  }
+  .galeri-sudirman-run {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 563px;
+    height: 44px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #212427;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43.884px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 92;
+  }
+  .gallery-40 {
+    flex-shrink: 0;
+    position: relative;
+    width: 1058px;
+    height: 772px;
+    z-index: 93;
+  }
+  .main-picture {
+    position: absolute;
+    width: 99.91%;
+    height: 78.24%;
+    top: 0;
+    left: 0;
+    background: url(/img/slider_1_1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 94;
+  }
+  .group-41 {
+    position: relative;
+    width: 954px;
+    height: 69px;
+    margin: 267px 0 0 51px;
+    z-index: 96;
+  }
+  .arrow-left {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 0;
+    left: 0;
+    background: url(/img/vector.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 97;
+    overflow: hidden;
+  }
+  .arrow-right {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 0;
+    left: 885px;
+    background: url(/img/vector_ek1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 98;
+    overflow: hidden;
+  }
+  .thumbnail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 24.01%;
+    height: 18.78%;
+    top: 81.22%;
+    left: 0;
+    background: url(/img/slider_1_1_ek1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 99;
+  }
+  .thumbnail-42 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 24.01%;
+    height: 18.78%;
+    top: 81.22%;
+    left: 25.33%;
+    background: url(/img/slider_1_1_ek2.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 101;
+  }
+  .thumbnail-43 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 24.01%;
+    height: 18.78%;
+    top: 81.22%;
+    left: 50.66%;
+    background: url(/img/slider_1_1_ek3.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 103;
+  }
+  .thumbnail-44 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 24.01%;
+    height: 18.78%;
+    top: 81.22%;
+    left: 75.99%;
+    background: url(/img/slider_1_1_ek4.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 105;
+  }
+  .berita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 54px;
+    position: relative;
+    width: 1198px;
+    margin: 356px 0 0 121px;
+    z-index: 39;
+  }
+  .artikel-terkait {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 343px;
+    height: 44px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #212427;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43.884px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 40;
+  }
+  .article-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 50px;
+    position: relative;
+    width: 1198px;
+    z-index: 41;
+  }
+  .navbar-45 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 120px;
+    position: relative;
+    width: 333px;
+    background: linear-gradient(195.18deg, #58ffb9, #326bff);
+    z-index: 42;
+    border-radius: 100px;
+    backdrop-filter: blur(25px);
+  }
+  .nav-menu-46 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    gap: 3px;
+    position: relative;
+    min-width: 0;
+    z-index: 43;
+  }
+  .single-menu-47 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    gap: 10px;
+    position: relative;
+    padding: 10px 20px 10px 20px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ffffff;
+    z-index: 44;
+    border-radius: 100px;
+  }
+  .single-menu-48 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 55px;
+    height: 20px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.504px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 45;
+  }
+  .single-menu-49 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    gap: 10px;
+    position: relative;
+    padding: 10px 20px 10px 20px;
+    z-index: 46;
+  }
+  .single-menu-4a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 38px;
+    height: 20px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.504px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 47;
+  }
+  .single-menu-4b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    gap: 10px;
+    position: relative;
+    padding: 10px 20px 10px 20px;
+    z-index: 48;
+  }
+  .single-menu-4c {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 48px;
+    height: 20px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.504px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 49;
+  }
+  .frame-4d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 50px;
+    position: relative;
+    width: 1198px;
+    z-index: 50;
+  }
+  .frame-4e {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap: 35px;
+    position: relative;
+    width: 1198px;
+    z-index: 51;
+  }
+  .card-article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    width: 376px;
+    z-index: 52;
+  }
+  .frame-4f {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 376px;
+    height: 282px;
+    background: url(/img/thumbnail_artikel_1_1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 53;
+    overflow: hidden;
+    border-radius: 32px;
+  }
+  .frame-50 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 376px;
+    z-index: 55;
+  }
+  .single-menu-51 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 376px;
+    height: 40px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #212427;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.504px;
+    text-align: left;
+    z-index: 56;
+  }
+  .single-menu-52 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 15px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #6b6b6b;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.628px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 57;
+  }
+  .frame-53 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    width: 376px;
+    z-index: 58;
+  }
+  .frame-54 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 376px;
+    height: 282px;
+    background: url(/img/thumbnail_artikel_1_1_ek1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 59;
+    overflow: hidden;
+    border-radius: 32px;
+  }
+  .frame-55 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 376px;
+    z-index: 61;
+  }
+  .single-menu-56 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 376px;
+    height: 40px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #212427;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.504px;
+    text-align: left;
+    z-index: 62;
+  }
+  .single-menu-57 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 15px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #6b6b6b;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.628px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 63;
+  }
+  .frame-58 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    width: 376px;
+    z-index: 64;
+  }
+  .frame-59 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 376px;
+    height: 282px;
+    background: url(/img/thumbnail_artikel_1_1_ek2.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 65;
+    overflow: hidden;
+    border-radius: 32px;
+  }
+  .frame-5a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 376px;
+    z-index: 67;
+  }
+  .single-menu-5b {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 376px;
+    height: 40px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #212427;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.504px;
+    text-align: left;
+    z-index: 68;
+  }
+  .single-menu-5c {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 15px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #6b6b6b;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.628px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 69;
+  }
+  .frame-5d {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    width: 376px;
+    z-index: 70;
+  }
+  .frame-5e {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 376px;
+    height: 282px;
+    background: url(/img/thumbnail_artikel_1_1_ek3.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 71;
+    overflow: hidden;
+    border-radius: 32px;
+  }
+  .frame-5f {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 376px;
+    z-index: 73;
+  }
+  .single-menu-60 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 376px;
+    height: 40px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #212427;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.504px;
+    text-align: left;
+    text-overflow: ellipsis;
+    z-index: 74;
+    overflow: hidden;
+  }
+  .single-menu-61 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 15px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #6b6b6b;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.628px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 75;
+  }
+  .frame-62 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    width: 376px;
+    z-index: 76;
+  }
+  .frame-63 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 376px;
+    height: 282px;
+    background: url(/img/thumbnail_artikel_1_1_ek4.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 77;
+    overflow: hidden;
+    border-radius: 32px;
+  }
+  .frame-64 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 376px;
+    z-index: 79;
+  }
+  .single-menu-65 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 376px;
+    height: 40px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #212427;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.504px;
+    text-align: left;
+    z-index: 80;
+  }
+  .single-menu-66 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 15px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #6b6b6b;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.628px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 81;
+  }
+  .frame-67 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    width: 376px;
+    z-index: 82;
+  }
+  .frame-68 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 376px;
+    height: 282px;
+    background: url(/img/thumbnail_artikel_1_1_ek5.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 83;
+    overflow: hidden;
+    border-radius: 32px;
+  }
+  .frame-69 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 376px;
+    z-index: 85;
+  }
+  .sukses-finish-marathon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 376px;
+    height: 40px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #212427;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.504px;
+    text-align: left;
+    z-index: 86;
+  }
+  .sabtu-nov-wib {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 15px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #6b6b6b;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.628px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 87;
+  }
+  .button-6a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 231px;
+    padding: 15px 25px 15px 25px;
+    background: #ffc73c;
+    z-index: 88;
+    overflow: hidden;
+    border-radius: 100px;
+    box-shadow: 0 18px 40px 0 rgba(255, 211, 102, 0.35);
+  }
+  .daftar-sekarang-6b {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 181px;
+    height: 20px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.504px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 89;
+    text-shadow: 0 18px 40px rgba(255, 211, 102, 0.35);
+  }
+  .footer {
+    background: #28a997;
+    padding: 50px 70px 50px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1440px;
+    position: absolute;
+    left: calc(50% - 720px);
+    bottom: 0px;
+  }
+  .mask-group {
+    flex-shrink: 0;
+    width: 285.83px;
+    height: 115px;
+    position: static;
+  }
+  .logo-event-3 {
+    width: 285.83px;
+    height: 115px;
+    position: absolute;
+    left: 70px;
+    top: 50px;
+  }
+  .logo-event-2 {
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+  }
+  .rectangle-11 {
+  
+    width: 352.92px;
+    height: 153.33px;
+    position: absolute;
+    left: 39.58px;
+    top: 30.83px;
+  }
+  .frame-12356 {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .event-olahraga-lari-sejauh-10-kilometer-yang-diselenggarakan-oleh-detikhealth-secara-gratis-untuk-masyarakat-indonesia-ajak-keluarga-dan-kerabat-anda-untuk-ikut-keseruan-sudirman-run-2023-lalu-menangkan-hadiah-utama-serta-doorprize-dengan-total-puluhan-juta-rupiah {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    flex: 1;
+  }
+  .frame-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 192px;
+    position: relative;
+  }
+  .atoms-typhography-heading-08-xxsmall {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 16px;
+    position: relative;
+  }
+  .text-input {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 1%;
+    left: 0%;
+    width: 99%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+  }
+  .molecules-socmed-circle {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 184.56px;
+    position: relative;
+  }
+  .atoms-icons-socmed-circle-facebook {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+  }
+  .atoms-icons-socmed-circle-facebook2 {
+    position: absolute;
+    inset: 0;
+  }
+  .atoms-icons-fill-icon-facebook {
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    width: 60%;
+    bottom: 20%;
+    top: 20%;
+    height: 60%;
+  }
+  .icons-fill-facebook {
+    height: auto;
+    position: absolute;
+    right: 25%;
+    left: 25%;
+    width: 50%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+  }
+  
+  .image-31 {
+    top: 0px;
+	left: 0px;
+	width: 32px;
+	height: 32px;
+    
+  }
+  .atoms-icons-socmed-circle-instagram {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+  }
+  .atoms-icons-socmed-circle-instagram2 {
+    position: absolute;
+    inset: 0;
+  }
+  .atoms-shapes-normal-rounded-1003 {
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+  }
+  .atoms-icons-fill-icon-instagram {
+    position: absolute;
+    right: 21.25%;
+    left: 18.75%;
+    width: 60%;
+    bottom: 21.25%;
+    top: 18.75%;
+    height: 60%;
+  }
+  .instagram-logo {
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  .atoms-icons-socmed-circle-linkedin {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+  }
+  .atoms-icons-socmed-circle-linkedin2 {
+    position: absolute;
+    inset: 0;
+  }
+  .atoms-shapes-normal-rounded-1004 {
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+  }
+  .atoms-icons-fill-icon-instagram2 {
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    width: 60%;
+    bottom: 20%;
+    top: 20%;
+    height: 60%;
+  }
+  .icons-fill-linkedin {
+    height: auto;
+    position: absolute;
+    left: 0.3px;
+    top: 0.3px;
+    overflow: visible;
+  }
+  .atoms-icons-socmed-circle-youtube {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+  }
+  .atoms-icons-socmed-circle-youtube2 {
+    position: absolute;
+    inset: 0;
+  }
+  .atoms-shapes-normal-rounded-1005 {
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+  }
+  .icons-fill-youtube {
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 2.7px;
+    overflow: visible;
+  }
+  .line-1 {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px 0 0 0;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 0px;
+    position: relative;
+  }
+  ._2021-landify-ui-kit-all-rights-reserved {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+  }
+  .hero {
+    position: absolute;
+    width: 1440px;
+    height: 960px;
+    top: 0;
+    left: 0;
+    background: url(/img/bg_desktop_1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 204;
+    overflow: hidden;
+  }
+  .bg {
+    position: absolute;
+    width: 1440px;
+    height: 1619px;
+    bottom: 381px;
+    left: 50%;
+    background: url(/img/bg-2.jpg)
+      no-repeat center;
+    background-size: cover;
+    transform: translate(-50%, 0);
+  }
+
+  
